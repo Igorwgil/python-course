@@ -1,0 +1,7 @@
+from random import randint
+
+randomList = [0] * 7 
+
+for i in range(7):
+    randomList[i] = randint(0, 1000)
+    print(randomList[i])

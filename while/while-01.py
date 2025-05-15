@@ -1,6 +1,6 @@
 import os
 
-def cleam_scream()():
+def cleam_scream():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 cleam_scream()

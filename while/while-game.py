@@ -1,13 +1,13 @@
 import os
 from random import randint
 
-def limpar_tela():
+def cleam_scream():
     os.system('cls')
 
 option = 's'
 
 while option == 's':
-    limpar_tela()
+    cleam_scream()
 
     print('YOU VS COMPUTER!')
     print()
@@ -28,4 +28,4 @@ while option == 's':
 
     option = input('You have not more attempts\nDo you want keep playing? [s] or [n]')
 
-limpar_tela()
+cleam_scream()

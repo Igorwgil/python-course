@@ -1,9 +1,9 @@
 import os
 
-def limpar_tela():
+def cleam_scream()():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-limpar_tela()
+cleam_scream()
 
 x = 6
 
